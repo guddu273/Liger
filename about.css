@@ -1,0 +1,93 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+/* Header */
+header {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;  /* Navigation shifted to right */
+    gap: 30px;
+    padding: 15px 30px 0 0;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+/* Main Content */
+main {
+    padding: 40px 30px;
+}
+
+/* About Text */
+main section:first-of-type p {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Our Team Section */
+h2 {
+    font-size: 2rem;
+    margin-top: 50px;
+    color: #222;
+}
+
+table {
+    width: 100%;
+    margin-top: 30px;
+    border-spacing: 30px;
+    text-align: center;
+}
+
+table img {
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+table p {
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 40px;
+}

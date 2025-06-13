@@ -1,0 +1,148 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav div {
+    text-align: right;
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 40px 20px;
+}
+
+/* Layout Table */
+table {
+    width: 100%;
+    border-spacing: 30px;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    padding: 12px;
+    background-color: #f7b500;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background-color: #d99d00;
+}
+
+/* Image beside the form */
+td img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Map Section */
+iframe {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    border: none;
+}
+
+/* Social Media Icons */
+section:last-of-type {
+    margin-top: 40px;
+}
+
+section:last-of-type img {
+    margin: 10px;
+    transition: transform 0.3s ease;
+    vertical-align: middle;
+}
+
+section:last-of-type img:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    table {
+        display: block;
+    }
+
+    table tr {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    td {
+        width: 100%;
+    }
+
+    form {
+        width: 90%;
+    }
+}
